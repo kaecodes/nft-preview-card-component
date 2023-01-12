@@ -68,15 +68,32 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 1rem; 
+  margin-bottom: 1rem;
 }
 
 .ethereum-time .ethereum {
   color: var(--cyan);
   font-weight: bold; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ethereum-time .ethereum img {
+  margin-right: 0.5rem;
 }
 
 .ethereum-time .time {
   color: var(--soft-blue); 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ethereum-time .time img {
+  margin-right: 0.5rem;
 }
 
 hr {
